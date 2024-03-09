@@ -1,0 +1,35 @@
+/* TodoItem.css */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  background: #fff; /* Keep the background white */
+  color: #333; /* Set the text color you want, here it's a dark grey */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item .buttons {
+  display: flex;
+  align-items: center;
+}
+
+button.update, button.delete {
+  margin-left: 8px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.update {
+  background-color: #f0ad4e;
+  color: white; /* Ensure the button text is also styled */
+}
+
+button.delete {
+  background-color: #d9534f;
+  color: white; /* Ensure the button text is also styled */
+}
